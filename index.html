@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    
+    <div class="main-box">
+        <div class="before"></div>
+        <div class="display-text">
+            <input class="textt" type="text" id="textField" >
+        </div>
+        <div class="button-group">
+        <div class="buttons">
+            <div >
+                <input id="btn1" type="button"  onclick="calc('1');" value="1" >
+            </div>
+            <div >
+                <input id="btn2" type="button" onclick="calc('2');" value="2">
+            </div>
+            <div >
+                <input id="btn3" type="button" onclick="calc('3');" value="3">
+            </div>
+            <div >
+                <input id="btn4" type="button" onclick="calc('4');" value="4">
+            </div>
+        </div>
+        <div class="buttons">
+            <div >
+                <input id="btn5" type="button" onclick="calc('5');" value="5">
+            </div>
+            <div >
+                <input id="btn6" type="button" onclick="calc('6');" value="6">
+            </div>
+            <div >
+                <input id="btn7" type="button" onclick="calc('7');" value="7">
+            </div>
+            <div >
+                <input id="btn8" type="button" onclick="calc('8');" value="8">
+            </div>
+        </div>
+        <div class="buttons">
+            <div >
+                <input id="btn9" type="button" onclick="calc('9');" value="9">
+            </div>
+            <div >
+                <input id="equal" type="button" onclick="evall('=');" value="=">
+            </div>
+            <div >
+                <input id="addd" type="button" onclick="calc('+');" value="+">
+            </div>
+            <div >
+                <input  type="button" onclick="clearScreen();" value="c">
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
